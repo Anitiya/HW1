@@ -3,98 +3,280 @@
 	<head>
 		<meta charset="utf-8">
 		<titel></titel>
+		<link rel="stylesheet" href="font-awesome-4.6.3\css\font-awesome.min.css">
 		<style type="text/css">
 		#body {
-		background: #F5F5F5;
+		background: #edeef0;
 		border: solid 0 black;
 		}
 		#top {
-		background: #4169E1;
-		padding: 10px 0 10px 10px;
-		padding-left: 600px;
-		margin-bottom: 10px;
-		font-size: 30px;
-		font-weight: bold;
-		color: white;
+		background: #507298;
+		padding: 22px 0 22px 22px;
 		}
-		#left {
-		width: 150px;
+		#vk{
+		font-size: 35px;
+		color: white;
+		position: absolute;
+	    left: 22%;
+	    top: 1%;
+		}
+		#search{
+		font-size: 35px;
+		color: white;
+		position: absolute;
+	    left: 33%;
+	    top: 2px;
+		}
+		#bell{
+		font-size: 18px;
+		color: #305076;
+		position: absolute;
+	    left: 43%;
+	    top: 22px;	
+		}
+		#music{
+		font-size: 18px;
+		color: #305076;
+		position: absolute;
+	    left: 45%;
+	    top: 22px;
+		}
+		#name{
+		font-size: 16px;
+		color: white;
+		position: absolute;
+	    left: 67%;
+	    top: 22px;	
+		}
+		#photo-1{
+		position: absolute;
+	    left: 69%;
+	    top: 15px;	
+		}
+		#menu {
+		width: 160px;
     	float: left;
-    	padding-left: 600px;
-    	padding-top: 5px;
-    	color:steelblue;
+    	margin-left: 430px;
+    	margin-top: 15px;
+    	color: white;
+		}
+		a.menu:link, a.menu:visited {
+		color:#587ba2;
+		font-family:'txt';
+		font-size:15px;
+		text-decoration:none;
+		background-color:#edeef0;
+		padding:5px 5px 5px 5px ;	
+		}
+		a.menu:hover {
+		color:#587ba2;
+		font-family:'txt';
+		font-size:15px;
+		text-decoration:none;
+		background-color:#e3e9f4;
+		padding:5px 5px 5px 15px; 	
+		}
+		a.menu:active {
+		color:#587ba2;
+		font-family:'txt';
+		font-size:15px;
+		text-decoration:none;
+		background-color:#e3e9f4;
+		padding:5px 5px 5px 5px;
 		}
 		#center{
-		width: 200px;
+		width: 240px;
 		float: left;
-		padding-top: 5px;
+		padding: 5px 5px 5px 5px;
+		background-color: #edeef0;
+		margin-left: 25px;
+		margin-top: 12px;
+		border-radius: 2%;
+		}
+		#center1{
+		width: 230px;
+		float: center;
+		border: solid 1px #e3e7ee;
+		background-color: white;
+		border-radius: 2%;
+		padding: 5px 5px 5px 5px;
+		margin-bottom: 10px;
+		}
+		#photo2 {
+		position: absolute;
+		border: solid 10px black;
+		}
+		a.edit:link, a.edit:visited, a.edit:hover, a.edit:active {
+		color:#587ba2;
+		font-family:'txt';
+		font-size:15px;
+		text-decoration:none;
+		background-color:#e3e9f4;
+		padding:5px 5px 5px 5px ;
+		}
+		a.graph:link, a.graph:visited, a.graph:hover, a.graph:active {
+		color:#587ba2;
+		font-family:'txt';
+		font-size:15px;
+		text-decoration:none;
+		background-color:#e3e9f4;
+		padding:5px 5px 5px 5px ;
+		margin-left: 10px;
+		}
+		#center2 {
+		width: 230px;
+		float: center;
+		border: solid 1px #e3e7ee;
+		background-color: white;
+		border-radius: 3%;
+		padding: 5px 5px 5px 5px;
+		margin-bottom: 10px;
+		}
+		a.gift:link, a.gift:visited, a.gift:hover, a.gift:active {
+		color:black;
+		font-family:'txt';
+		font-size:15px;
+		text-decoration:none;	
+		}
+		#center3 {
+		width: 230px;
+		float: center;
+		border: solid 1px #e3e7ee;
+		background-color: white;
+		border-radius: 3%;
+		padding: 5px 5px 5px 5px;
+		margin-bottom: 5px;
+		}
+		a.friends:link, a.friends:visited, a.friends:hover, a.friends:active {
+		color:black;
+		font-family:'txt';
+		font-size:15px;
+		text-decoration:none;	
 		}
 		#right{
-		width: 200px;
+		width: 550px;
 		float: left;
-		padding-left: 20px;
-		padding-top: 5px;
+		padding: 5px 5px 5px 5px;
+		background-color: #edeef0;
+		margin-left: 25px;
+		margin-top: 12px;
+		border-radius: 2%;
 		}
-		</style>
+		#right1 {
+		width: 500px;
+		float: center;
+		font-size:15px;
+		border: solid 1px #e3e7ee;
+		background-color: white;
+		border-radius: 2%;
+		padding: 1px 20px 1px 20px;
+		margin-bottom: 10px;
+		color: #507298;
+		line-height: 6px;	
+		}
+		#inf1{
+		line-height: 0;
+		font-size: 20px;	
+		}
+		a.status:link, a.status:visited, a.status:hover, a.status:active{
+		font-size: 35px;
+		color: white;
+		position: absolute;	
+		}
+		a.info:link, a.info:visited, a.info:hover, a.info:active {
+		color:#587ba2;
+		font-family:'txt';
+		font-size:15px;
+		text-decoration:none;
+		padding:5px 5px 5px 5px ;	
+		}
+		a.info2:link, a.info2:visited, a.info2:hover, a.info2:active {
+		color:#587ba2;
+		font-family:'txt';
+		font-size:5px;
+		text-decoration:none;	
+		}
+		#right2 {
+		width: 500px;
+		float: center;
+		font-size:25px;
+		border: solid 1px #e3e7ee;
+		background-color: white;
+		border-radius: 2%;
+		padding: 1px 20px 1px 20px;
+		margin-bottom: 10px;
+		color: #507298;
+		line-height: 6px;	
+		}
+		#right3{
+		width: 540px;
+		background-color: white;
+		border-radius: 2%;
+		color: #507298;	
+		}
+		a.news:link, a.news:visited, a.news:hover, a.news:active{
+		font-size: 35px;
+		color: white;
+		position: absolute;
+		}
+		#right4{
+		width: 55px;
+		background-color: white;
+		border-radius: 2%;
+		color: #507298;	
+		}
+		</style> 
 	</head>
 	<body id="body">
-		<div id="top">VK</div>
-  		<div id="left">
-   			<p>My Profile</p>
-			<p>News</p>
-			<p>Messages</p>
-			<p>Friends</p>
-			<p>Communities</p>
-			<p>Photos</p>
-			<p>Audios</p>
-			<p>Videos</p>
-			<p>Games</p>
+		<div id="top">
+			<div id="vk"> <i class="fa fa-vk" aria-hidden="true"></i></div>
+			<div id="search"> <input type="search" placeholder="Search"></div>
+			<div id="bell"> <i class="fa fa-bell fa lg" aria-hidden="true"></i></div>
+			<div id="music"> <i class="fa fa-music" aria-hidden="true"></i></div>
+			<div id="name"> Anna</div>
+			<div id="photo-1"> <img src="images/me.png" alt="me"></div>	
+		</div>
+  		<div id="menu">
+   			<p><a class="menu" href="#"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;My Profile</a></p>
+			<p><a class="menu" href="#"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;News</a></p>
+			<p><a class="menu" href="#"><i class="fa fa-comments" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Messages</a></p>
+			<p><a class="menu" href="#"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Friends</a></p>
+			<p><a class="menu" href="#"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Communities</a></p>
+			<p><a class="menu" href="#"><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Photos</a></p>
+			<p><a class="menu" href="#"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Audios</a></p>
+			<p><a class="menu" href="#"><i class="fa fa-film" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Videos</a></p>
+			<p><a class="menu" href="#"><i class="fa fa-gamepad" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Games</a></p>
 			<p><hr></p>
-			<p>Bookmarks</p>
-			<p>Documents</p>
+			<p><a class="menu" href="#"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Bookmarks</a></p>
+			<p><a class="menu" href="#"><i class="fa fa-file-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Documents</a></p>
 			<p><hr></p>
-			<p>Indy Cat</p>
+			<p><a class="menu" href="#"><i class="fa fa-flask" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Indy Cat</a></p>
 			<p><hr></p>
-			<p>Blog Developers</p>
-			<p>About More</p>
+			<p><a class="menu" href="#">&nbsp;Blog</a><a class="menu" href="#">&nbsp;Developers</a></p>
+			<p><a class="menu" href="#">&nbsp;About</a><a class="menu" href="#">&nbsp;More</a></p>
   		</div>
   		<div id="center">
-   			<p>
-   				<img src="images/fr1.png" alt="fr1" width="200px" align="left">
-   			</p>
-   			<p><hr></p>
-   			<p>
-   				<img src="images/fr2.png" alt="fr2" width="200px" align="left">
-   			</p>
-   			<p><hr></p>
-   			<p>
-   				<img src="images/fr3.png" alt="fr3" width="200px" align="left">
-   			</p>
-   			<p><hr></p>
-   			<p>
-   				<img src="images/fr4.png" alt="fr4" width="200px" align="left">
-   			</p>
-   			<p><hr></p>
-   			<p>
-   				<img src="images/fr5.png" alt="fr5" width="200px" align="left">
-   			</p>
+  			<div id="center1"><p id="photo-2"> &nbsp;&nbsp;&nbsp;&nbsp;<img src="images/me2.png" alt="me2"></p><p><p>&nbsp;&nbsp;&nbsp;&nbsp;<a class="edit" href="#"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Edit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a class="graph" href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></p></p></div>
+   			<div id="center2"><a class="gift" href="#">&nbsp;&nbsp;&nbsp;Gift 30</a><p> &nbsp;&nbsp;&nbsp;&nbsp;<img src="images/2.png" alt="2">&nbsp;&nbsp;<img src="images/1.png" alt="1">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/3.png" alt="3"></p> </div>
+   			<div id="center3"><a class="friends" href="#">&nbsp;&nbsp;&nbsp;Friends 79&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;updates</a><p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/1.1.png" alt="1.1">&nbsp;&nbsp;<img src="images/1.2.png" alt="1.2">&nbsp;&nbsp;<img src="images/1.3.png" alt="1.3"></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/1.4.png" alt="1.4">&nbsp;&nbsp;<img src="images/1.5.png" alt="1.5">&nbsp;&nbsp;&nbsp;<img src="images/1.6.png" alt="1.6"></p><p><hr></p>
+   			<a class="friends" href="#">&nbsp;&nbsp;&nbsp;Online friends 12</a><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/1.6.png" alt="1.6">&nbsp;&nbsp;&nbsp;<img src="images/1.4.png" alt="1.4">&nbsp;&nbsp;<img src="images/1.1.png" alt="1.1"></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/1.3.png" alt="1.3">&nbsp;&nbsp;&nbsp;<img src="images/1.2.png" alt="1.2">&nbsp;&nbsp;<img src="images/1.5.png" alt="1.5"></p>
+   			</div>
   		</div>
   		<div id="right">
-  			<p>
-  				<img src="images/fr6.png" alt="fr6" width="480px" align="left">	
-  			</p>
-  			<p><hr></p>
-  			<p>
-  				<img src="images/fr7.png" alt="fr7" width="480px;" align="left">
-  			</p>
-  			<p><hr></p>
-  			<p>
-  				<img src="images/fr8.png" alt="fr8" width="480px"; align="left"> 
-  			</p>  
-  			<p><hr></p>
-  			<p>
-  				<img src="images/fr9.png" alt="fr9" width="480px" align="left">
-  			</p>			
+	  		<div id="right1"><p id="inf1"><big>Anna Trishina</big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>Online</small></p>
+	  		<p id="status"> <input type="status" placeholder="Set a status message"></p><p><hr></p>
+	  		<p>Birthday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="info" href="#">July 31,1990</a></p><p>Current city:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="info" href="#">Zaporizhia</a></p><p>Relationship status:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="info" href="#">Single</a></p><p>Studied at:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="info" href="#">KNUKiM</a></p><p>&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="info" href="#">Show full information</a></p><p><hr></p>
+	  		<p> <a class="info" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<img src="images/2.1.png" alt="2.1">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/2.2.png" alt="2.2">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/2.3.png" alt="2.3">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/2.4.png" alt="2.4">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/2.5.png" alt="2.5">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/2.6.png" alt="2.6"></a></p>
+	  		</div>
+	  		<div id="right2">
+	  			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="info" href="#"><i class="fa fa-camera" aria-hidden="true"></i>&nbsp;&nbsp;Add photos</a></p>
+	  		</div>
+	  		<div id="right3">
+	  			<p><img src="images/3.1.png" alt="2.6">&nbsp;&nbsp;&nbsp; <input type="news" placeholder="What's new?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-camera" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<i class="fa fa-film" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<i class="fa fa-music" aria-hidden="true"></i> </p>
+	  		</div>
+	  		<div id="right4">
+	  			<p><img src="images/3.2.png" alt="3.2"></p>
+	  		</div>	
   		</div>
 	</body>
 </html>
